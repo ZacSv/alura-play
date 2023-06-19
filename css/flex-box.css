@@ -21,6 +21,14 @@
 
 }
 
+.superior__secao__container{
+    display: inline-flex;
+    gap: 1%;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
 
 @media(min-width: 834px){
     .cabecalho__pesquisar__item{
