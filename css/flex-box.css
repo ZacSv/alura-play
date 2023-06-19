@@ -21,8 +21,6 @@
 .rodape__container{
     display: flex;
     flex-flow: column wrap;
-    
-
 }
 
 /* MENU SUPERIOR */
@@ -85,7 +83,7 @@
         flex-direction: column;
         justify-content: flex-start;
         gap: 10%;
-        padding-top: 50%;
+        padding-top: 100%;
     }
     .menu__container {
         left: 0;
@@ -99,6 +97,34 @@
         padding-left: 10%;
     }
 
+    /* RESPONSIVIDADE DESKTOP */
 
+    @media(min-width: 1440px){
+
+        .menu__container{
+            width: 225px;
+            overflow: scroll;
+        }
+        
+        .menu__lista{
+            height: auto;
+            gap: 15px;
+            padding-top: 10%;
+            border-color: transparent;
+        }
+        /* COLOCANDO ITENS ANTES ESCONDIDOS NOVAMENTE NA LISTA */
+        .menu__lista:nth-child(2),
+        .menu__lista:nth-child(3),
+        .menu__lista:nth-child(4){
+        display: flex;
+    }
+
+    .rodape__container{
+        padding-left: 260px;
+    }
+
+
+
+    }
 }
 
