@@ -14,9 +14,26 @@
     display: none;
 }
 
+.rodape__container{
+    display: flex;
+    flex-flow: column wrap;
+    
+
+}
+
+
 @media(min-width: 834px){
     .cabecalho__pesquisar__item{
         display: block;
     }
+    .rodape__container{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        padding: 0 2%;
+    
+    }
+    
 }
+
 
