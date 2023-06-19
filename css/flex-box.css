@@ -88,14 +88,16 @@
         .menu__container {
             left: 0;
             height: auto;
-            width: 75px;
+            width: 80px;
             top: 80px;
         }
-
+    
+    }
         /* ALINHANDO ITENS */
         .rodape__container{
-            padding-left: 10%;
+            padding-left: 12%;
         }
+
 
         /* RESPONSIVIDADE DESKTOP */
 
@@ -134,5 +136,5 @@
         }
 
         }
-    }
+    
 
