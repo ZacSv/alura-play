@@ -1,130 +1,138 @@
-/* CABEÇALHO */
+    /* CABEÇALHO */
 
-.cabecalho__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    height: 80px;
-    width: 100%;
-    padding: 0 25px;
-    position: fixed;
-    top: 0;
-}
-
-.cabecalho__pesquisar__item{
-    display: none;
-}
-
-/* RODAPÉ */
-
-.rodape__container{
-    display: flex;
-    flex-flow: column wrap;
-}
-
-/* MENU SUPERIOR */
-.superior__secao__container{
-    display: inline-flex;
-    gap: 1%;
-    align-items: center;
-    white-space: nowrap;
-    overflow: scroll;
-}
-
-/* MENU PERSONALIZADO */
-
-.menu__container{
-    position: fixed;
-    bottom: 0%;
-    height: 4.6rem;
-    width: 100%;
-}
-
-.menu__lista{
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    
-}
-
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4){
-    display: none;
-}
-
-.menu__lista li{
-    align-self: center;
-}
-
-.menu__itens{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-/* CONFIGURAÇÕES PARA TABLET */
-
-@media(min-width: 800px){
-    .cabecalho__pesquisar__item{
-        display: block;
-    }
-    .rodape__container{
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        padding: 0 2%;
-    
-    }
-
-     /* INVERTANDO LAYOUT DO MENU */
-    .menu__lista{
-        flex-direction: column;
-        justify-content: flex-start;
-        gap: 10%;
-        padding-top: 100%;
-    }
-    .menu__container {
-        left: 0;
-        height: auto;
-        width: 75px;
-        top: 80px;
-    }
-
-    /* ALINHANDO ITENS */
-    .rodape__container{
-        padding-left: 10%;
-    }
-
-    /* RESPONSIVIDADE DESKTOP */
-
-    @media(min-width: 1440px){
-
-        .menu__container{
-            width: 225px;
-            overflow: scroll;
-        }
-        
-        .menu__lista{
-            height: auto;
-            gap: 15px;
-            padding-top: 10%;
-            border-color: transparent;
-        }
-        /* COLOCANDO ITENS ANTES ESCONDIDOS NOVAMENTE NA LISTA */
-        .menu__lista:nth-child(2),
-        .menu__lista:nth-child(3),
-        .menu__lista:nth-child(4){
+    .cabecalho__container{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        height: 80px;
+        width: 100%;
+        padding: 0 25px;
+        position: fixed;
+        top: 0;
     }
+
+    .cabecalho__pesquisar__item{
+        display: none;
+    }
+
+    /* RODAPÉ */
 
     .rodape__container{
-        padding-left: 260px;
+        display: flex;
+        flex-flow: column wrap;
     }
 
-
-
+    /* MENU SUPERIOR */
+    .superior__secao__container{
+        display: inline-flex;
+        gap: 1%;
+        align-items: center;
+        white-space: nowrap;
+        overflow: scroll;
     }
-}
+
+    /* MENU PERSONALIZADO */
+
+    .menu__container{
+        position: fixed;
+        bottom: 0%;
+        height: 4.6rem;
+        width: 100%;
+    }
+
+    .menu__lista{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4){
+        display: none;
+    }
+
+    .menu__lista li{
+        align-self: center;
+    }
+
+    .menu__itens{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    /* CONFIGURAÇÕES PARA TABLET */
+
+    @media(min-width: 800px){
+        .cabecalho__pesquisar__item{
+            display: block;
+        }
+        .rodape__container{
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            padding: 0 2%;
+        
+        }
+
+        /* INVERTANDO LAYOUT DO MENU */
+        .menu__lista{
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10%;
+            padding-top: 100%;
+        }
+        .menu__container {
+            left: 0;
+            height: auto;
+            width: 75px;
+            top: 80px;
+        }
+
+        /* ALINHANDO ITENS */
+        .rodape__container{
+            padding-left: 10%;
+        }
+
+        /* RESPONSIVIDADE DESKTOP */
+
+        @media(min-width: 1440px){
+
+            .menu__container{
+                width: 16%;
+                overflow: scroll;
+                
+            }
+            
+            .menu__lista{
+                height: auto;
+                gap: 15px;
+                padding-top: 10%;
+                border-color: transparent;
+                gap: 12px;
+                padding-bottom: 10%;
+                
+            }
+            /* COLOCANDO ITENS ANTES ESCONDIDOS NOVAMENTE NA LISTA */
+            .menu__lista:nth-child(2),
+            .menu__lista:nth-child(3),
+            .menu__lista:nth-child(4){
+            display: flex;
+        }
+
+        .rodape__container{
+            padding-left: 260px;
+        }
+
+        .menu__itens{
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+        }
+
+        }
+    }
 

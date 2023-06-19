@@ -93,6 +93,7 @@ body {
 .menu__itens:hover {
     background-color: var(--azul-medio);
     transition: .5s;
+    border-radius: 50px;
 }
 
 .icone__inicio::before {
@@ -258,7 +259,9 @@ body {
     }
 
     .menu__lista li {
-        width: 100%;
+        width: 80%;
+        
+        
     }
 
     /* ESTILOS DA SECAO SUPERIOR */
