@@ -9,9 +9,10 @@ the project consists of a website that organizes some videos from Alura's YouTub
 I will leave below some prints of the site in different device sizes attesting to the quality of the applied responsiveness techniques.<br>
 <br>
 
-<div align= "right">
-<img src="https://github.com/ZacSv/alura-play/assets/71881016/f897daf4-a318-4499-8633-7fde2502387c.png" width = "230px" />
+<div align= "center">
+<img src="https://github.com/ZacSv/alura-play/assets/71881016/caf59894-d4cf-45ed-980b-bd472380162c.png" width = "1000px"/>
 </div>
+
 
 
 
