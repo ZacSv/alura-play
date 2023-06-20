@@ -7,6 +7,12 @@ Deixarei abaixo algumas prints do site em diferentes tamanhos de aparelho atesta
 Alura play is a project I developed to practice my Front-end knowledge with a focus on responsiveness,
 the project consists of a website that organizes some videos from Alura's YouTube channel.
 I will leave below some prints of the site in different device sizes attesting to the quality of the applied responsiveness techniques.<br>
+<br>
 
-  
+<div align= "right">
+<img src="https://github.com/ZacSv/alura-play/assets/71881016/f897daf4-a318-4499-8633-7fde2502387c.png" width = "230px" />
+</div>
+
+
+
   
